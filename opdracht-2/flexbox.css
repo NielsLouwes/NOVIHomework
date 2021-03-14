@@ -19,18 +19,16 @@
     display: flex;
     justify-content: space-between;
 }
-
+.three ul {
+    display: flex;
+    justify-content: flex-start;
+}
 
 .three li {
-    display: inline;
-    padding-right: 15px;
-}
-/*.three li {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-between;*/
-/*}*/
+    padding-right: 25px;
+    list-style-type: none;
 
+}
 .four {
     display: flex;
     flex-direction: column;
